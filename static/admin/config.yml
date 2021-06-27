@@ -1,0 +1,74 @@
+backend:
+  name: test-repo
+  repo: codescientist703/portfolio-blog
+  branch: main
+
+media_folder: static/img
+public_folder: /img
+site_url: https://nihalmittal.me
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    label_singular: 'Post'
+    create: true
+    folder: 'src/content/posts'
+    description: Create a blog post here
+    slug: '{{slug}}_{{day}}-{{month}}-{{year}}'
+    summary: '{{title}} — {{day}}/{{month}}/{{year}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - {
+          label: 'Publish Date',
+          name: 'date',
+          widget: 'datetime',
+          dateFormat: 'DD-MM-YYYY',
+          timeFormat: 'HH:mm',
+          format: 'DD-MM-YYYY HH:mm',
+        }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'Main content goes here.',
+        }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'Portfolio'
+        name: 'portfolio'
+        file: 'src/pages/portfolio.md'
+        fields:
+          - { label: 'Slug', name: 'slug', widget: 'hidden', default: '/' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'SEO Description', name: 'description', widget: 'text' }
+          - { label: 'About Image', name: 'aboutImage', widget: 'image' }
+          - label: 'Call To Action'
+            name: 'cta'
+            widget: 'object'
+            fields:
+              - name: 'ctaText'
+                label: 'CTA text'
+                widget: 'string'
+              - name: 'ctaLink'
+                label: 'CTA Link'
+                widget: 'string'
+      - label: 'Blog'
+        name: 'blog'
+        file: 'src/pages/blog.md'
+        fields:
+          - { label: 'Slug', name: 'slug', widget: 'string', default: '/blog' }
+          - {
+              label: 'Title',
+              name: 'title',
+              widget: 'string',
+              default: 'Blog Posts',
+            }
+          - {
+              label: 'SEO Description',
+              name: 'description',
+              widget: 'text',
+              default: 'Read all my blog here',
+            }
