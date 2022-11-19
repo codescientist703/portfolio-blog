@@ -1,6 +1,6 @@
-import type { AppProps } from 'next/app';
-import Head from 'next/head';
-import { MantineProvider } from '@mantine/core';
+import type { AppProps } from "next/app";
+import Head from "next/head";
+import { MantineProvider } from "@mantine/core";
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
@@ -11,6 +11,10 @@ export default function App({ Component, pageProps }: AppProps) {
 					name="viewport"
 					content="minimum-scale=1, initial-scale=1, width=device-width"
 				/>
+				<script
+					src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+					async
+				></script>
 			</Head>
 
 			<MantineProvider
@@ -18,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				withNormalizeCSS
 				theme={{
 					/** Put your mantine theme override here */
-					colorScheme: 'light',
+					colorScheme: "light",
 				}}
 			>
 				<Component {...pageProps} />
