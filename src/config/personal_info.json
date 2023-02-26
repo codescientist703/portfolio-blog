@@ -1,0 +1,23 @@
+{
+  "shortDescription": "I am a software engineer specialized in building scalable backend systems. I also dabble in a little bit of frontend. Currently, I am working at Amazon as a Software Developer Engineer.",
+  "skills": [
+    "Java",
+    "AWS",
+    "MicroServices",
+    "API",
+    "Django",
+    "React"
+  ],
+  "aboutMe": "Hi, I am Nihal Mittal currently working at Amazon as a Software Developer. I work on a variety of payment products for Amazon Japan customers. \nMy interests lie in Backend Development, Distributed Systems, and Open Source software. I like to build anything that lives on the web ranging from chrome extensions to full-fledged web apps.\nMy weapon of choice for the front end is usually NextJS and sometimes VueJS. I also like to contribute to open-source projects and have a few projects of my own that you can check out in the projects section.",
+  "occupations": [
+    "Software Engineer",
+    "Open Source Contributor",
+    "Web Developer"
+  ],
+  "name": "Nihal Mittal",
+  "twitterId": "nihal_703",
+  "logoImage": "assets/nm_logo.png",
+  "emailId": "nihalmittal47@gmail.com",
+  "linkedinId": "nihal-mittal-8a6230183",
+  "githubId": "codescientist703"
+}
