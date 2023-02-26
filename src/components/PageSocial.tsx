@@ -9,13 +9,13 @@ export const PageSocial = () => {
 
 	return (
 		<div className="grid grid-flow-col gap-8">
-			<Link className="link" href={linkedinURL} target="_blank">
+			<Link className="link" href={linkedinURL} target="_blank" aria-label="Linkedin Profile">
 				<BsLinkedin className="w-6 h-6" />
 			</Link>
-			<Link className="link" href={githubURL} target="_blank">
+			<Link className="link" href={githubURL} target="_blank" aria-label="Github Profile">
 				<BsGithub className="w-6 h-6" />
 			</Link>
-			<Link className="link" href={twitterURL} target="_blank">
+			<Link className="link" href={twitterURL} target="_blank" aria-label="Twitter Profile">
 				<BsTwitter className="w-6 h-6" />
 			</Link>
 		</div>

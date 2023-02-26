@@ -17,22 +17,24 @@ export const Sidebar = () => {
 	return (
 		<div className="drawer-side">
 			<label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-			<ul className="pt-8 w-60 bg-base-100 text-base-content menu ">
-				{navLinks.map((data, index) => (
-					<li key={index}>
-						<Link href={data.link} className="px-6">
-							{data.icon}
-							{data.name}
-						</Link>
-					</li>
-				))}
+			<div className="pt-8 w-60 bg-base-100 text-base-content menu ">
+				<ul>
+					{navLinks.map((data, index) => (
+						<li key={index}>
+							<Link href={data.link} className="px-6">
+								{data.icon}
+								{data.name}
+							</Link>
+						</li>
+					))}
+				</ul>
 				<label htmlFor="my-drawer-3" className="absolute right-2 top-2 cursor-pointer">
 					<RiCloseLine className="w-5 h-5" />
 				</label>
 				<div className="absolute bottom-0 w-full flex justify-center py-4 bg-base-200">
 					<PageSocial />
 				</div>
-			</ul>
+			</div>
 		</div>
 	);
 };
