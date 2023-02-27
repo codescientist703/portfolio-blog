@@ -9,7 +9,7 @@ export const ContactSection = () => {
 			<Container maxWidth="max-w-6xl">
 				<div className="flex items-center flex-col mb-20">
 					<div className="flex flex-col items-center mb-12">
-						<h2 className="text-6xl font-bold mb-2 whitespace-nowrap">Get In Touch</h2>
+						<h2 className="text-4xl md:text-6xl font-bold mb-2 whitespace-nowrap">Get In Touch</h2>
 						<div className="border-b-4 border-accent w-20 self-center" />
 					</div>
 					<p className="text-center prose prose-lg max-w-full mb-12 md:px-32">

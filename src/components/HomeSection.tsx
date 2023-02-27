@@ -7,10 +7,10 @@ export const HomeSection = () => {
 	const animationSequence = personalInfo.occupations.flatMap((data) => [data, 1000]);
 
 	return (
-		<section className="relative">
+		<section className="relative pb-36">
 			<Container maxWidth="max-w-6xl">
 				<div className="hero min-h-[95vh]">
-					<div className="hero-content flex-col lg:flex-row-reverse">
+					<div className="hero-content flex-col lg:flex-row-reverse px-0">
 						<Image
 							src="/assets/home_page_coder.svg"
 							className="hidden lg:block"
@@ -21,11 +21,11 @@ export const HomeSection = () => {
 						<div className="w-full">
 							<div className="space-y-5">
 								<div className="text-2xl text-primary">Hi, I&lsquo;m</div>
-								<div className="text-6xl font-bold">{personalInfo.name}</div>
+								<div className="text-5xl md:text-6xl font-bold">{personalInfo.name}</div>
 								<TypeAnimation
 									sequence={animationSequence}
 									speed={45}
-									className="text-2xl"
+									className="text-lg md:text-2xl"
 									wrapper="h2"
 									repeat={Infinity}
 								/>

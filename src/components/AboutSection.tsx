@@ -7,7 +7,7 @@ export const AboutSection = () => {
 		<section className="bg-base-200 relative pb-64 pt-36">
 			<Container maxWidth="max-w-6xl">
 				<div className="place-items-start hero">
-					<div className="hero-content gap-20 flex-col-reverse lg:flex-row-reverse">
+					<div className="hero-content gap-20 flex-col-reverse lg:flex-row-reverse px-0">
 						<div className="avatar lg:block mx-auto">
 							<div className="rounded-xl max-w-xs lg:max-w-xl">
 								<Image src="/assets/my_picture.jpeg" alt="Nihal Mittal" width={450} height={100} />

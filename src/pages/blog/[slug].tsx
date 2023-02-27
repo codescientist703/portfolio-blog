@@ -34,7 +34,7 @@ export default function BlogPostPage({
 			<Container maxWidth="max-w-4xl">
 				<SEO title={title} description={seoDescription} type="article" image="" />
 				<div>
-					<h1 className="text-5xl font-extrabold mt-14 mb-6">{title}</h1>
+					<h1 className="text-4xl md:text-5xl font-extrabold mt-14 mb-6">{title}</h1>
 					<div className="text-xl font-extralight text-gray-400 mb-5">
 						Posted on {convertDateToReadableFormat(date)}
 					</div>
@@ -44,9 +44,7 @@ export default function BlogPostPage({
 					<article className="prose prose-lg max-w-full prose-headings:-mt-20 prose-headings:pt-20">
 						<MDXRemote {...content} components={BlogPostComponents} />
 					</article>
-					<div className="divider" />
 					<Pagination prevBlogPost={previousBlogPostData} nextBlogPost={nextBlogPostData} />
-					<div className="divider" />
 				</div>
 			</Container>
 		</DefaultLayout>

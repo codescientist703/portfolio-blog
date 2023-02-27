@@ -37,9 +37,19 @@ export const Pagination = ({
 	nextBlogPost?: PaginationBlogPost;
 }) => {
 	return (
-		<div className="flex justify-between min-h-[8rem] items-center">
-			{prevBlogPost ? <PrevBlogNavItem blogPost={prevBlogPost} /> : <div />}
-			{nextBlogPost && <NextBlogNavItem blogPost={nextBlogPost} />}
+		<div>
+			{prevBlogPost || nextBlogPost ? (
+				<>
+					<div className="divider" />
+					<div className="flex justify-between min-h-[8rem] items-center">
+						{prevBlogPost ? <PrevBlogNavItem blogPost={prevBlogPost} /> : <div />}
+						{nextBlogPost && <NextBlogNavItem blogPost={nextBlogPost} />}
+					</div>
+					<div className="divider" />
+				</>
+			) : (
+				<></>
+			)}
 		</div>
 	);
 };
