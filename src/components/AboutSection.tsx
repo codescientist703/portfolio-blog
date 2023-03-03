@@ -23,7 +23,7 @@ export const AboutSection = () => {
 									<p key={index}>{data}</p>
 								))}
 								Here are some of the technologies I’ve worked with:
-								<ul className="grid grid-cols-2 marker:text-base marker:content-['▹'] marker:text-accent marker:pr-8">
+								<ul className="grid grid-cols-2 marker:text-base marker:content-['▹'] marker:text-accent marker:pr-8 pl-2 text-sm">
 									{personalInfo.skills.map((skill, index) => (
 										<li key={index} className="pl-4">
 											{skill}
