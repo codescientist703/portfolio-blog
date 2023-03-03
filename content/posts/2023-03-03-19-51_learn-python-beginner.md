@@ -36,7 +36,7 @@ This is the part where you start by actually learning the basic aspects of the p
 * [The Python Tutorial](https://docs.python.org/3/tutorial/) - The official site for python documentation also includes the python tutorial.
 * [How to Get Started With Python?](https://www.programiz.com/python-programming/tutorial) - This python tutorial by programiz.com includes all everything you need to master python syntax starting from python installation to advanced concepts like OOP.
 
-If you learn more by watching rather than reading then I would highly recommend [this](https://www.youtube.com/watch?v=rfscVS0vtbw&amp;t=13s) free video tutorial by FreeCodeCamp on youtube. Regardless of which method you choose to learn python, you must get a grasp of all the main concepts of python.
+If you learn more by watching rather than reading then I would highly recommend [this](https://www.youtube.com/watch?v=rfscVS0vtbw&t=13s) free video tutorial by FreeCodeCamp on youtube. Regardless of which method you choose to learn python, you must get a grasp of all the main concepts of python.
 
 ## Start writing small python scripts to do stuff
 
@@ -62,7 +62,7 @@ Now comes the most fun part according to me, building real-world projects. It is
 
 In step 1 assuming you selected an area, you might wanna work on a project related to the area you selected.  You could try to experiment in various other areas also until you find what you enjoy the most. Here are some generic project ideas that you can try on your own.
 
-### Web Development 
+### Web Development
 
 * A todo list application with an authentication system.
 * A full-fledged management software for library, school, hospital etc.
@@ -72,7 +72,8 @@ In step 1 assuming you selected an area, you might wanna work on a project relat
 ### Machine Learning
 
 * A customer service chatbot.
-* An algorithm to analyze the sentiment of the user.</li><li>A music genre classification algorithm.
+* An algorithm to analyze the sentiment of the user.
+* A music genre classification algorithm.
 * An algorithm to summarise news articles.
 
 ### Game Development
