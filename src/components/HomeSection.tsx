@@ -1,6 +1,7 @@
 import { Container } from "components/Container";
 import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
+import Link from "next/link";
 import personalInfo from "../config/personal_info.json";
 
 export const HomeSection = () => {
@@ -31,7 +32,9 @@ export const HomeSection = () => {
 								/>
 							</div>
 							<p className="py-6 prose">{personalInfo.shortDescription}</p>
-							<button className="btn btn-outline btn-info btn-md">Check out my blog</button>
+							<Link className="btn btn-outline btn-info btn-md" href="/blog">
+								Check out my blog
+							</Link>
 						</div>
 					</div>
 				</div>
