@@ -8,7 +8,7 @@ export const ScrollToTop = () => {
 		document.getElementById("root-container")?.addEventListener("scroll", () => {
 			const rootContainer = document.getElementById("root-container");
 
-			if (rootContainer != undefined && rootContainer.scrollTop > 800) {
+			if (rootContainer != undefined && rootContainer.scrollTop > 5000) {
 				setShowTopBtn(true);
 			} else {
 				setShowTopBtn(false);
@@ -24,7 +24,7 @@ export const ScrollToTop = () => {
 	};
 
 	return (
-		<div className="fixed bottom-10 right-14 z-10">
+		<div className="fixed bottom-6 right-8 z-10">
 			{showTopBtn && (
 				<ImArrowUp2
 					onClick={goToTop}

@@ -32,7 +32,7 @@ export const BlogPostLink = (props: any) => {
 };
 
 export const TableOfContent = ({ children }: { children: ReactNode }) => (
-	<nav className="pt-8 mb-16 marker:text-sm marker:content-['➤']">
+	<nav className="pt-8 mb-8 marker:text-sm marker:content-['➤']">
 		<h3 className="uppercase flex items-center">
 			<MdFormatListBulleted className="inline-block mr-3" />
 			Table Of Contents

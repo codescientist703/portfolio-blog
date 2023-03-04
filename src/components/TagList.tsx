@@ -4,7 +4,7 @@ const Tag = ({ name }: { name: string }) => {
 
 export const TagList = ({ tagList }: { tagList: Array<string> }) => {
 	return (
-		<div className="space-x-2">
+		<div className="flex flex-wrap gap-2">
 			{tagList.map((tag, index) => (
 				<div className="badge badge-outline badge-info py-3 px-4 capitalize" key={index}>
 					{tag}
