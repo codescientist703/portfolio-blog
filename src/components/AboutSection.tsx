@@ -4,7 +4,7 @@ import personalInfo from "../config/personal_info.json";
 
 export const AboutSection = () => {
 	return (
-		<section className="bg-base-200 relative pb-64 pt-36">
+		<section className="bg-base-300 relative pb-64 pt-36">
 			<Container maxWidth="max-w-6xl">
 				<div className="place-items-start hero">
 					<div className="hero-content gap-20 flex-col-reverse lg:flex-row-reverse px-0">
