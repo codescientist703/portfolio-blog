@@ -1,3 +1,14 @@
 {
-	"projects": []
+  "projects": [
+    {
+      "name": "Job Dundho",
+      "description": "Job Dundho is the ultimate job portal for any job aspirant to find any type of job. It has a nice UI/UX so navigation through the site is a breeze. It also comes with a powerful filtering system so one can find any job easily.",
+      "tags": [
+        "react",
+        "django"
+      ],
+      "githubLink": "https://github.com/codescientist703/job-site",
+      "projectImage": "assets/job_dundho-1-.png"
+    }
+  ]
 }
