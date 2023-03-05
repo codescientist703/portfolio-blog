@@ -19,6 +19,17 @@
       ],
       "githubLink": "https://github.com/codescientist703/anime-india",
       "projectImage": "assets/anime_india-1-.png"
+    },
+    {
+      "name": "Resume Ranker",
+      "description": "It is a web application that allows the recruiter to easily filter out resumes based on resume score. The backend was built using the Flask framework. It has features like an authentication system, an NLP model to extract relevant content, and a file parsing system.",
+      "tags": [
+        "Python",
+        "Flask",
+        "NLP"
+      ],
+      "githubLink": "https://github.com/codescientist703/Resume_ranker",
+      "projectImage": "assets/resume_ranker-1-.png"
     }
   ]
 }
