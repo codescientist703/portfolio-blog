@@ -37,7 +37,7 @@ export const Pagination = ({
 	nextBlogPost?: PaginationBlogPost;
 }) => {
 	return (
-		<div>
+		<>
 			{prevBlogPost || nextBlogPost ? (
 				<>
 					<div className="divider" />
@@ -48,8 +48,8 @@ export const Pagination = ({
 					<div className="divider" />
 				</>
 			) : (
-				<></>
+				<div className="py-8" />
 			)}
-		</div>
+		</>
 	);
 };
