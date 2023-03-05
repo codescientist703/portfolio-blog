@@ -9,6 +9,16 @@
       ],
       "githubLink": "https://github.com/codescientist703/job-site",
       "projectImage": "assets/job_dundho-1-.png"
+    },
+    {
+      "name": "Anime India",
+      "description": "Anime India is a discussion forum web application to discuss things related to anime. It has features like an authentication system, post creation, discussion thread, custom profile, and role-based control. The backend was built using the Django framework and frontend using the Bootstrap framework.",
+      "tags": [
+        "django",
+        "bootstrap"
+      ],
+      "githubLink": "https://github.com/codescientist703/anime-india",
+      "projectImage": "assets/anime_india-1-.png"
     }
   ]
 }
