@@ -21,7 +21,7 @@ export const ProjectCard = ({ project }: { project: Project }) => {
 				<TagList tagList={tags} />
 				<h2 className="card-title mt-6 text-2xl mb-2 font-extrabold">{name}</h2>
 				<p className="mb-8 leading-relaxed font-extralight"> {description}</p>
-				<div className="grid grid-cols-2 items-center text-center gap-4">
+				<div className="grid grid-cols-2 items-center text-center gap-3">
 					<Link
 						href={githubLink}
 						className="btn btn-outline btn-primary"
