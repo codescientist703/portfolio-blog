@@ -8,7 +8,7 @@ export const ScrollToTop = () => {
 		document.getElementById("root-container")?.addEventListener("scroll", () => {
 			const rootContainer = document.getElementById("root-container");
 
-			if (rootContainer != undefined && rootContainer.scrollTop > 5000) {
+			if (rootContainer != undefined && rootContainer.scrollTop > 3000) {
 				setShowTopBtn(true);
 			} else {
 				setShowTopBtn(false);

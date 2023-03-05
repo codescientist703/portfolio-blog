@@ -41,7 +41,7 @@ export default function BlogPostPage({
 					<div className="mb-8">
 						<TagList tagList={tags} />
 					</div>
-					<article className="prose prose-lg max-w-full prose-headings:-mt-20 prose-headings:pt-20">
+					<article className="prose prose-lg max-w-full prose-headings:-mt-20 prose-headings:pt-20 mb-14">
 						<MDXRemote {...content} components={BlogPostComponents} />
 					</article>
 					<Pagination prevBlogPost={previousBlogPostData} nextBlogPost={nextBlogPostData} />
