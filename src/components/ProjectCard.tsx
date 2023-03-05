@@ -7,7 +7,7 @@ export const ProjectCard = ({ project }: { project: Project }) => {
 	const { name, description, tags, githubLink, projectImage, liveLink } = project;
 
 	return (
-		<div className="card bg-base-300 shadow-xl max-w-md p-5 gap-8">
+		<div className="card bg-base-300 shadow-xl max-w-md p-5 gap-8 border border-gray-700">
 			<figure>
 				<Image
 					src={"/" + projectImage}
