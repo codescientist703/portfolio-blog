@@ -48,7 +48,7 @@ export const Pagination = ({
 					<div className="divider" />
 				</div>
 			) : (
-				<div className="py-8" />
+				<div className="py-7" />
 			)}
 		</>
 	);
