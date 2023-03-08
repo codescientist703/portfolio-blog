@@ -12,7 +12,7 @@
     },
     {
       "name": "Anime India",
-      "description": "Anime India is a discussion forum web application to discuss things related to anime. It has features like an authentication system, post creation, discussion thread, custom profile, and role-based control. The backend was built using the Django framework and frontend using the Bootstrap framework.",
+      "description": "Anime India is a discussion forum web application to discuss things related to anime. It has features like an authentication system, post creation, discussion thread, custom profile, and role-based control.",
       "tags": [
         "django",
         "bootstrap"
