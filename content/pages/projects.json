@@ -30,6 +30,19 @@
       ],
       "githubLink": "https://github.com/codescientist703/Resume_ranker",
       "projectImage": "assets/resume_ranker-1-.png"
+    },
+    {
+      "name": "Meeting Manager",
+      "liveLink": "https://chrome.google.com/webstore/detail/meeting-manager/aacgaodijbejpjkdogojbcjjakcklmjl?hl=en&authuser=0",
+      "githubLink": "https://github.com/codescientist703/Meeting-Manager",
+      "tags": [
+        "extension",
+        "VueJS",
+        "google",
+        "meet"
+      ],
+      "description": "Meeting Manager allows you to manage all your google meet conferences from a simple list view where you can perform any action like muting/unmuting the mic, camera, and sound from ANY tab or window. ",
+      "projectImage": "assets/meet-manager.png"
     }
   ]
 }
