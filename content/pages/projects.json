@@ -14,6 +14,17 @@
       "projectImage": "assets/meet-manager.png"
     },
     {
+      "name": "Frappe Chat",
+      "tags": [
+        "frappe",
+        "python"
+      ],
+      "githubLink": "https://github.com/frappe/chat",
+      "liveLink": "https://frappecloud.com/marketplace/apps/chat",
+      "projectImage": "assets/frappe_chat.png",
+      "description": "It is a modern chat widget for the Frappe framework, featuring guest/admin views, real-time updates, guest user workflow, and more. The chat widget has over 1800 users and received 68 stars on its GitHub repository."
+    },
+    {
       "name": "Job Dundho",
       "description": "Job Dundho is the ultimate job portal for any job aspirant to find any type of job. It has a nice UI/UX so navigation through the site is a breeze. It also comes with a powerful filtering system so one can find any job easily.",
       "tags": [
@@ -22,6 +33,18 @@
       ],
       "githubLink": "https://github.com/codescientist703/job-site",
       "projectImage": "assets/job_dundho-1-.png"
+    },
+    {
+      "name": "Github Kanban Chart",
+      "liveLink": "https://codescientist703.github.io/kanban-chart/",
+      "githubLink": "https://github.com/codescientist703/github-kanban",
+      "tags": [
+        "github",
+        "open-source",
+        "javascript"
+      ],
+      "description": "Github Kanban Chat is a tool to share one's open-source contributions to anyone in the form of a kanban chart which looks very visually appealing to the eyes. It shows off all the open and closed pull requests/issues in the form of a kanban chart.",
+      "projectImage": "assets/github_kanban.png"
     },
     {
       "name": "Anime India",
