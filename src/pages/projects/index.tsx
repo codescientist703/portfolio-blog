@@ -16,7 +16,7 @@ export default function ProjectPage({
 			<Container maxWidth="max-w-6xl">
 				<SEO title={`Projects by ${personalInfo.name}`} />
 				<PageTitle title="Projects" />
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mb-14">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mb-36">
 					{projectsList.map((project, key) => (
 						<ProjectCard key={key} project={project} />
 					))}
