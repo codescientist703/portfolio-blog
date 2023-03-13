@@ -11,7 +11,7 @@
         "meet"
       ],
       "description": "Meeting Manager allows you to manage all your google meet conferences from a simple list view where you can perform any action like muting/unmuting the mic, camera, and sound from ANY tab or window. ",
-      "projectImage": "assets/meet-manager.png"
+      "projectImage": "assets/anime_india-1-.jpg"
     },
     {
       "name": "Frappe Chat",
@@ -21,7 +21,7 @@
       ],
       "githubLink": "https://github.com/frappe/chat",
       "liveLink": "https://frappecloud.com/marketplace/apps/chat",
-      "projectImage": "assets/frappe_chat.png",
+      "projectImage": "assets/frappe_chat.jpg",
       "description": "It is a modern chat widget for the Frappe framework, featuring guest/admin views, real-time updates, guest user workflow, and more. The chat widget has over 1800 users and received 68 stars on its GitHub repository."
     },
     {
@@ -32,7 +32,7 @@
         "django"
       ],
       "githubLink": "https://github.com/codescientist703/job-site",
-      "projectImage": "assets/job_dundho-1-.png"
+      "projectImage": "assets/job_dundho-1-.jpg"
     },
     {
       "name": "Github Kanban Chart",
@@ -44,7 +44,7 @@
         "javascript"
       ],
       "description": "Github Kanban Chat is a tool to share one's open-source contributions to anyone in the form of a kanban chart which looks very visually appealing to the eyes. It shows off all the open and closed pull requests/issues in the form of a kanban chart.",
-      "projectImage": "assets/github_kanban.png"
+      "projectImage": "assets/github_kanban.jpg"
     },
     {
       "name": "Anime India",
@@ -54,7 +54,7 @@
         "bootstrap"
       ],
       "githubLink": "https://github.com/codescientist703/anime-india",
-      "projectImage": "assets/anime_india-1-.png"
+      "projectImage": "assets/anime_india-1-.jpg"
     },
     {
       "name": "Resume Ranker",
@@ -65,7 +65,7 @@
         "NLP"
       ],
       "githubLink": "https://github.com/codescientist703/Resume_ranker",
-      "projectImage": "assets/resume_ranker-1-.png"
+      "projectImage": "assets/resume_ranker-1-.jpg"
     }
   ]
 }
