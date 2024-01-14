@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### nihalmittal.me
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a15da88f-7596-420d-b617-a2b7b8b95412/deploy-status)]()
+[![MADE BY Next.js](https://img.shields.io/badge/MADE%20BY%20Next.js-000000.svg?style=flat&logo=Next.js&labelColor=000)](https://nextjs.org/)
+
+This is a Next.js based minimalist **developer portfolio** along with a **blogging** platform powered by **Netlify CMS**.
+
+![Portfolio Blog Preview](.github/images/portfolio_blog_showcase.png)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/codescientist703/portfolio-blog)
+
+## Features
+
+- :rocket: Sleek theme for a seamless experience.
+- :nerd_face: Specially tailored for developers with essential pages like blog posts and projects.
+- :computer: Integrated blogging platform using Netlify CMS, an open-source static site generator with traditional CMS features..
+- :goggles: SEO friendly Blog posts.
+- :hammer: Customize content effortlessly with zero code changes needed
+- :camera_flash: Blazing fast with almost perfect lighthouse score.
+
+## Tech stack
+
+- [React](https://reactjs.org) + [Next.js](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Netlify CMS](https://decapcms.org/docs/nextjs/)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Daisy UI](https://daisyui.com/)
+- [Next Mdx Remote](https://www.npmjs.com/package/next-mdx-remote)
+- [Rehype](https://www.npmjs.com/package/rehype)
+- [React Icons](https://react-icons.github.io/react-icons)
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
+1. In the _admin/config.yml_ file, uncomment the following line `# local_backend: true # Set to true when developing locally`
+2. Run this command `npx netlify-cms-proxy-server` to start the netlify server locally.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The CMS portal can be accessed here [localhost:3000/admin/index.html](localhost:3000/admin/index.html)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Installation options
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Option one:** One-click deploy
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/codescientist703/portfolio-blog)
+
+**Option two:** Manual clone
+
+1. Clone this repo: `git clone https://github.com/codescientist703/portfolio-blog.git`
+2. Navigate to the directory and run `yarn install`
+3. Run `yarn dev`
+4. Make your changes
+5. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
+
+#### Enable Identity and Git Gateway
+
+Netlify's Identity and Git Gateway services allow you to manage CMS admin users for your site without requiring them to have an account with your Git host or commit access on your repo
+
+Follow this guide for more intructions: https://decapcms.org/docs/nextjs/#enable-identity-and-git-gateway
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Daisy UI](https://daisyui.com/)
+- [Netlify CMS](https://decapcms.org/docs/nextjs/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Your feedback and contributions are welcome!
