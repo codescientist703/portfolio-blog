@@ -1,4 +1,4 @@
-### nihalmittal.me
+## [nihalmittal.me](https://nihalmittal.me)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a15da88f-7596-420d-b617-a2b7b8b95412/deploy-status)]()
 [![MADE BY Next.js](https://img.shields.io/badge/MADE%20BY%20Next.js-000000.svg?style=flat&logo=Next.js&labelColor=000)](https://nextjs.org/)
@@ -14,9 +14,9 @@ This is a Next.js based minimalist **developer portfolio** along with a **bloggi
 - :rocket: Sleek theme for a seamless experience.
 - :nerd_face: Specially tailored for developers with essential pages like blog posts and projects.
 - :computer: Integrated blogging platform using Netlify CMS, an open-source static site generator with traditional CMS features..
-- :goggles: SEO friendly Blog posts.
+- :mag_right: SEO friendly Blog posts.
 - :hammer: Customize content effortlessly with zero code changes needed
-- :camera_flash: Blazing fast with almost perfect lighthouse score.
+- :zap: Blazing fast with almost perfect lighthouse score.
 
 ## Tech stack
 
